@@ -8,7 +8,7 @@ setup(
     description='Njabulo Magudulela recursion_sort python package',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/Njabulo961/recursion_sort',
+    url='https://github.com/Njabulo961/recursion_sort.git',
     author='Njabulo Magudulela',
     author_email='njabulo.magd@gmail.com'
 )
