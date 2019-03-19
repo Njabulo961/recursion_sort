@@ -73,7 +73,7 @@ def factorial(n):
     -------
     n! : integer
         n!
-    """"     
+    """     
     # Define 0! and 1!
     if n == 0 or n == 1:
         return 1
@@ -97,7 +97,7 @@ def reverse(word):
     -------
     String
         reversed word
-    """"
+    """
 
     # Base Case: Account for empty string
     if len(word) == 0:
