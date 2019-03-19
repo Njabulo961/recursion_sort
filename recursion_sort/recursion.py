@@ -41,12 +41,12 @@ def fibonacci(n):
     """
 
     # Accounting for incorrect input
-    if n<=0: 
+    if n<0: 
         print("Input should be greater than zero") 
 
     # First Fibonacci number is 0 
     elif n==1: 
-        return 0
+        return 1
 
     # Second Fibonacci number is 1 
     elif n==2: 
