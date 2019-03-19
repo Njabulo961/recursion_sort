@@ -43,6 +43,9 @@ def fibonacci(n):
     # Accounting for incorrect input
     if n<0: 
         print("Input should be greater than zero") 
+    
+    elif n==0:
+        return 0
 
     # First Fibonacci number is 0 
     elif n==1: 
